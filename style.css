@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 200px 0 0 0;
+}
+
+h1 {
+  font-family: "Cinzel";
+  font-weight: 700;
+  font-size: 64px;
+
+  text-transform: capitalize;
+  color: #151718;
+  margin: 0;
+}
+
+.destaque {
+  color: #db2777;
+}
+
+p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  color: #2c2e2f;
+  margin: 0;
+}
+
+.button {
+  margin-top: 72px;
+}
+
+.button button {
+  font-family: "Cinzel";
+  font-weight: 700;
+  font-size: 20px;
+
+  border: none;
+  margin: 0 16px;
+  padding: 16px 32px;
+}
+
+.read-more {
+  background: none;
+}
+
+.travel-now {
+  border-radius: 80px;
+  background-color: #db2777;
+  color: #ffffff;
+}
